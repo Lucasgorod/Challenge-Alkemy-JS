@@ -1,5 +1,5 @@
 const express = require("express");
-const { Op, db, Operaciones } = require("./db.js");
+const { db, Operaciones } = require("./db.js");
 
 const server = express();
 server.use(express.json());
